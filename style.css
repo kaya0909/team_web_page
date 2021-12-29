@@ -139,7 +139,11 @@ dfn {
 
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
 }
 
 /**
@@ -443,3 +447,90 @@ th {
   padding: 0;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+section {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.main_section {
+  background-image: url('./img/hand.jpg');
+  background-size: cover;
+}
+
+.main_cover {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* 메인 내비게이션 디자인 */
+
+.main_nav a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/* //방문 후 링크 상태 */
+.main_nav a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/* 서브 네비게이션 디자인 */
+
+/* //클릭했을 때 링크 상태 */
+.sub_nav a:hover {
+  color: #C7C7C7;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/* //클릭했을 때 링크 상태 */
+.sub_nav a:active {
+  color: #C7C7C7;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.sub_nav a:link {
+  color: #C7C7C7;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/* //방문 후 링크 상태 */
+.sub_nav a:visited {
+  color: #C7C7C7;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/* //클릭했을 때 링크 상태 */
+.sub_nav a:hover {
+  color: #C7C7C7;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/* //클릭했을 때 링크 상태 */
+.sub_nav a:active {
+  color: #C7C7C7;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#main_text {
+  font-size: 60px;
+  color: #fff;
+}
