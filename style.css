@@ -443,3 +443,114 @@ th {
   padding: 0;
 }
 
+.main_img {
+  background-image: url("./img/hand.png");
+  width: 1440px;
+  height: 1024px;
+}
+
+.main_navbar {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+
+.inline_block {
+  display: inline-block;
+  margin: 1rem 0 0 1rem;
+  color: #fff;
+}
+
+.inline_block a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/* //방문 후 링크 상태 */
+.inline_block a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/* //클릭했을 때 링크 상태 */
+.inline_block a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/* //클릭했을 때 링크 상태 */
+.inline_block a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.nav_flex {
+  display: flex;
+  padding: 14 0 14 0;
+}
+
+.li_three a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/* //방문 후 링크 상태 */
+.li_three a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/* //클릭했을 때 링크 상태 */
+.li_three a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/* //클릭했을 때 링크 상태 */
+.sud_nav a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/* 서브 네비바 */
+
+/* //클릭했을 때 링크 상태 */
+.sud_nav a:link {
+  color: #C7C7C7;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/* //방문 후 링크 상태 */
+.sud_nav a:visited {
+  color: #C7C7C7;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/* //클릭했을 때 링크 상태 */
+.sud_nav a:hover {
+  color: #C7C7C7;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/* //클릭했을 때 링크 상태 */
+.sud_nav a:active {
+  color: #C7C7C7;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.main_text {
+  color: #fff;
+  font-size: 60px;
+}
