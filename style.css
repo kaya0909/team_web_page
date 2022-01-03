@@ -529,7 +529,7 @@ section {
   text-decoration: none;
 }
 
-#main_text {
+.main_text {
   font-size: 60px;
   color: #fff;
 }
